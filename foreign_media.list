@@ -44,6 +44,10 @@ DOMAIN-SUFFIX,chocotv.com.tw
 DOMAIN-KEYWORD,epicgames
 DOMAIN-SUFFIX,helpshift.com
 
+// Disney+
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-KEYWORD,disney
+
 // Fox+
 USER-AGENT,FOX%20NOW*
 USER-AGENT,FOXPlus*
