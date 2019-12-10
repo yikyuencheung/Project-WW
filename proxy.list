@@ -51,6 +51,7 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamstatic.com
 
 // Top blocked sites
+DOMAIN-SUFFIX,transistor.fm
 DOMAIN-SUFFIX,2o7.net
 DOMAIN-SUFFIX,4everProxy.com
 DOMAIN-SUFFIX,4shared.com
