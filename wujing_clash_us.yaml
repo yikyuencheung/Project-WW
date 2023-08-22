@@ -13,6 +13,15 @@ proxies:
     cipher: aes-256-gcm
     password: VAi8Sf15Fr
     udp: true
+
+  - name: JP
+    type: ss
+    server: 81.90.190.77
+    port: "47841"
+    cipher: aes-256-gcm
+    password: 2UBRrmaeAP
+    udp: true
+    
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,6 +29,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - US
+      - JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -27,6 +37,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - US
+      - JP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,30 +45,35 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - US
+      - JP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - US
+      - JP
   - name: 💬 OpenAI
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - US
+      - JP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - US
+      - JP
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - US
+      - JP
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -65,6 +81,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US
+      - JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,6 +105,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - US
+      - JP
 rules:
  - DOMAIN-SUFFIX,openai.com,💬 OpenAI
  - DOMAIN-SUFFIX,ai.com,💬 OpenAI
