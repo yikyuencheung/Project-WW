@@ -22,7 +22,7 @@ proxies:
     password: 2UBRrmaeAP
     udp: true
 
-  - name: JP
+  - name: SG
     type: ss
     server: 38.150.8.30
     port: "44567"
