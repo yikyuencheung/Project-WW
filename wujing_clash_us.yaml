@@ -25,9 +25,9 @@ proxies:
   - name: SG
     type: ss
     server: 38.150.8.30
-    port: "44567"
+    port: "29170"
     cipher: aes-256-gcm
-    password: a46q9PdeeM
+    password: 7cw20FQjbZ
     udp: true
     
 proxy-groups:
